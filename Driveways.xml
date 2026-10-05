@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Sidewalks (Mapped Areas)</title>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Summary: This dataset contains an inventory of City of Los Angeles Sidewalks and related features (Access Ramps, Curbs, Driveways, and Parkways).Background: This inventory was performed throughout 2017 using a combination of G.I.S software, aerial imagery (2014 LARIAC), and a geographic dataset of property/right-of way lines. The dataset has not been updated since its creation.Description: The following provides more detail about the feature classes in this dataset. All features were digitized (“traced”) as observed in the orthophotography (digital aerial photos) and assigned the Parcel Identification Number (PIN) of their corresponding property:Sidewalk (polygon) – represents paved pedestrian walkways. Typical widths are between 3‐6 feet in residential areas and larger and more variable in commercial and high‐density traffic areas.Alley-Sidewalk (polygon) – represents the prevailing walkway or path of travel at the entrance/exit of an alley. Digitized as Sidewalk features but categorized as Alley Sidewalk and assigned a generic PIN value, ALLEY SIDEWALK.Corner Polygon (polygon) - feature created where sidewalks from two streets meet but do not intersect (i.e. at corner lots). There’s no standard shape/type and configurations vary widely. These are part of the Sidewalk feature class.In commercial and high‐density residential areas where there is only continuous sidewalk (no parkway strip), the sidewalk also functions as a Driveway.Driveway (polygon) – represents area that provides vehicular access to a property. Features are not split by extended parcel lot lines except when two adjacent properties are served by the same driveway approach (e.g. a common driveway), in which case they are and assigned a corresponding PIN.Parkway (polygon) – represents the strip of land behind the curb and in front of the sidewalk. Generally, they are landscaped with ground cover but they may also be filled in with decorative stone, pavers, decomposed granite, or concrete. They are created by offsetting lines, the Back of Curb (BOC) line and the Face of Walk (FOW). The distance between the BOC and FOW is measured off the aerial image and rounded to the nearest 0.5 foot, typically 6 – 10 feet.Curb (polygon) – represents the concrete edging built along the street to form part of the gutter. Features are always 6” wide strips and are digitized using the front of curb and back of curb digitized lines. They are the leading improvement polygon and are created for all corner, parkway, driveway and, sidewalk (if no parkway strip is present) features.Curb Ramp, aka Access Ramp (point) – represents the geographic center (centroid) of Corner Polygon features in the Sidewalk feature class. They have either a “Yes” or “No” attribute that indicates the presence or absence of a wheelchair access ramp, respectively.Fields: All features include the following fields...FeatureID – a unique feature identifier that is populated using the feature class’ OBJECTID fieldAssetID –  a unique feature identifier populated by Los Angeles City staff for internal usePIND –  a unique Parcel Identification Number (PIN) for all parcels within the City of L.A. All Sidewalk related features will be split, non-overlapping, and have one associated Parcel Identification Number (PIN).  CreateDate – indicates date feature was createdModifiedDate – indicates date feature was revised/editedCalc_Width (excluding Access Ramps) – a generalized width of the feature calculated using spatial and mathematical algorithms on the feature. In almost all cases where features have variable widths, the minimum width is used. Widths are rounded to the nearest whole number. In cases where there is no value for the width, the applied algorithms were unable to calculate a reliable value.Calc_Length (excluding Access Ramps) – a generalized length of the feature calculated using spatial and mathematical algorithms on the feature. Lengths are rounded to the nearest whole number. In cases where there is no value for the length, the applied algorithms were unable to calculate a reliable value.Methodology: This dataset was digitized using a combination of G.I.S software, aerial imagery (2014 LARIAC), and a geographic dataset of property/right-of way lines.The general work flow is as follows:Create line work based on digital orthophotography, working from the face‐of‐curb (FOC) inward to the property right-of-way (ROW)Build sidewalk, parkway, driveway, and curb polygons from the digitized line workPopulate all polygons with the adjacent property PIN and classify all featuresCreate Curb Ramp pointsWarnings: This dataset has been provided to allow easy access and a visual display of Sidewalk and related features (Parkways, Driveway, Curb Ramps and Curbs). Every reasonable effort has been made to assure the accuracy of the data provided; nevertheless, some information may not be accurate. The City of Los Angeles assumes no responsibility arising from use of this information. THE MAPS AND ASSOCIATED DATA ARE PROVIDED WITHOUT WARRANTY OF ANY KIND, either expressed or implied, including but not limited to, the implied warranties of merchantability and fitness for a particular purpose.  Other things to keep in mind about this dataset are listed below:Obscured Features – The existence of dense tree canopy or dark shadows in the aerial imagery tend to obscure or make it difficult to discern the extent of certain features, such as Driveways. In these cases, they may have been inferred from the path in the corresponding parcel. If a feature and approach was completely obscured, it was not digitized. In certain instances the coloring of the sidewalk and adjacent pavement rendered it impossible to identify the curb line or that a sidewalk existed. Therefore a sidewalk may or may not be shown where one actually may or may not exist.Context: The following links provide information on the policy context surrounding the creation of this dataset. It includes links to City of L.A. websites:Willits v. City of Los Angeles Class Action Lawsuit Settlementhttps://www.lamayor.org/willits-v-city-la-sidewalk-settlement-announcedSafe Sidewalks LA – program implemented to repair broken sidewalks in the City of L.A., partly in response to the above class action lawsuit settlementhttps://sidewalks.lacity.org/Data Source: Bureau of EngineeringNotes: Please be aware that this dataset is not actively being maintainedLast Updated: 5/20/20215/20/2021 - Added Calc_Width and Calc_Length fieldsRefresh Rate: One-time deliverable. Dataset not actively being maintained. </abstract>
+            <purpose>City of Los Angeles Sidewalks and related features (Access Ramps, Curbs, Driveways, Parkways)
+
+Created in 2017 based on 2014 LARIAC Aerial Imagery</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>access ramps</themekey>
+                <themekey>Sidewalks</themekey>
+                <themekey>Parkways</themekey>
+                <themekey>Driveways</themekey>
+                <themekey>Access Ramps</themekey>
+                <themekey>Curb Ramps</themekey>
+                <themekey>Curbs</themekey>
+                <themekey>Americans with Disabilities Act</themekey>
+                <themekey>ADA</themekey>
+                <themekey>Bureau of Engineering</themekey>
+                <themekey>BOE</themekey>
+                <themekey>Sidewalk Access Program</themekey>
+                <themekey>City of Los Angeles</themekey>
+                <themekey>NavigateLA</themekey>
+                <themekey>Public Works</themekey>
+                <themekey>Alley Sidewalk</themekey>
+            </theme>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>This dataset has been provided to allow easy access and a visual display of Sidewalk and related features (Parkways, Driveway, Curb Ramps and Curbs). Every reasonable effort has been made to assure the accuracy of the data provided; nevertheless, some information may not be accurate. The City of Los Angeles assumes no responsibility arising from use of this information. THE MAPS AND ASSOCIATED DATA ARE PROVIDED WITHOUT WARRANTY OF ANY KIND, either expressed or implied, including but not limited to, the implied warranties of merchantability and fitness for a particular purpose.</useconst>
+    </idinfo>
+    <metainfo>
+        <metd>20181126</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <mets
