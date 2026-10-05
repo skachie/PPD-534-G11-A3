@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Metro_Bus_Lanes_2025_05_30</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <purpose>Map of metro bus priority lanes as of June 2025. Data provided by LA Metro.</purpose>
+        </descript>
+        <accconst>None</accconst>
+        <useconst>None</useconst>
+        <native>Esri ArcGIS 13.4.0.55405</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>String</sdtstype>
+                <ptvctcnt>0</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Metro_Bus_Lanes_2025_05_30</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>FID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Coordinates defining the features.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Id</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Proj_Name</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Legn</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Direction</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ln_mi</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Stat</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Limits</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Date</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Oper_Time</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>City</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape_Leng</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20250530</metd>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
